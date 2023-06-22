@@ -19,13 +19,13 @@ This page is basically built with just
 
 ## CLONE PROJECT
 * open your terminal
-* type and run this comand (`git clone git@github.com:RashJrEdmund/isomorphic-strings.git`)
+* type and run this comand (`git clone git@github.com:RashJrEdmund/secret-message.git`)
 * change to the project directory by entering: cd My-food
 * Note That: all this is done using your Linux terminal or git-bash for windows users.
 
 ## Command-line steps
 
-- $ git clone `https://github.com/RashJrEdmund/isomorphic-strings`
+- $ git clone `git@github.com:RashJrEdmund/secret-message.git`
 - $ `cd secret-message`
 - $ `git checkout feature/body`
 
@@ -34,7 +34,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/RashJrEdmund/secret-message/issues).
 
 ## Live Site
-[Link](https://rashjredmund.github.io/isomorphic-strings/)
+[Link](https://rashjredmund.github.io/secret-message/)
 
 ## AUTHOR
 **RASH**
