@@ -42,6 +42,7 @@ const handleNormalization = () => {
   }
 
   normalizedTxt.innerHTML = normalized
+  window.scrollTo(0, document.body.scrollHeight)
 }
 
 encodeBtn.addEventListener('click', handleNormalization)
