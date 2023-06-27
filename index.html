@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/styles/style.css">
-  <title>Secret Message</title>
-</head>
-<body>
-  
-  <script src="assets/scripts/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Secret Message</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Secret Message</h1>
+      <textarea
+        name=""
+        id="text-input"
+        cols="30"
+        rows="10"
+        placeholder="Write a message and i'll encode it"
+      ></textarea>
+      <label>
+        <span> Min text (50):</span>
+        <input type="range" value="0" min="0" max="50" id="range"/>
+      </label>
+
+      <button>Encode Message</button>
+
+      <p>normalized-text</p>
+      <div class="normalized-text"></div>
+      <p>chuncks</p>
+      <div class="chunk-message"></div>
+      <p>Encoded text</p>
+      <div class="encoded-text"></div>
+    </main>
+
+    <script src="assets/scripts/script.js"></script>
+  </body>
 </html>
